@@ -35,4 +35,4 @@ all: pict $(TARGET_LIB_SO)
 source: clean
 	git archive --prefix="pict-$(COMMIT)/" -o "pict-$(SHORT_COMMIT).tar.gz" $(COMMIT)
 
-.PHONY: all test clean source
+# .PHONY: all test clean source

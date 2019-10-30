@@ -112,6 +112,7 @@ int __cdecl wmain
 {
     wstring output;
     int ret = execute( argc, args, output );
+
     wcout << output;
 
     return ret;

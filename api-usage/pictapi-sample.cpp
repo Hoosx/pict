@@ -2,7 +2,7 @@
 #include <cassert>
 using namespace std;
 
-#include "pictapi.h"
+#include "../api/pictapi.h"
 
 #define PAIRWISE 2
 
